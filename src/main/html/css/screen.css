@@ -137,7 +137,6 @@
   quotes: none;
 }
 .swagger-section .swagger-ui-wrap p {
-  line-height: 1.4em;
   padding: 0 0 10px;
   color: #333333;
 }
@@ -171,6 +170,7 @@
   font-size: 0.9em;
   color: #666666;
   border-bottom: 1px solid #999999;
+  line-height: 1.4em;
 }
 .swagger-section .swagger-ui-wrap table tbody tr:last-child td {
   border-bottom: none;
@@ -183,7 +183,8 @@
   font-size: 0.9em;
   border-bottom: 1px solid #cccccc;
   vertical-align: top;
-  line-height: 1.3em;
+  line-height: 1.8em;
+  color: #515151;
 }
 .swagger-section .swagger-ui-wrap ol {
   margin: 0px 0 10px;
@@ -461,6 +462,15 @@
 .swagger-section .swagger-ui-wrap input.parameter {
   width: 300px;
   border: 1px solid #aaa;
+  padding: 4px;
+}
+.swagger-section .swagger-ui-wrap input[type=file].parameter {
+  width: 300px;
+  border: none;
+  padding: 0px;
+}
+.swagger-section .swagger-ui-wrap select {
+  padding: 4px;
 }
 .swagger-section .swagger-ui-wrap h1 {
   color: black;
